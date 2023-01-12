@@ -17,6 +17,9 @@
         table {
             width: 1000px;
             background-color: #acacac;
+            position: fixed;
+            top: 0;
+            left: 8px;
         }
 
         td {
@@ -29,6 +32,7 @@
             padding: 15px;
             background-color: lightskyblue;
             box-sizing: border-box;
+            margin-top: 50px;
         }
 
         #box h2 {
@@ -43,13 +47,36 @@
             color: navy;
             line-height: 1.5;
             text-align: justify;
+        }
 
+        .bottom {
+            position: fixed;
+            bottom: 0px;
+            left: 8px;
+            width: 1000px;
+        }
+
+        .right {
+            position: fixed;
+            left: 1100px;
+            top: 150px;
+
+        }
+
+        .arrow {
+            position: fixed;
+            left: 1150px;
+            bottom: 30px;
+            width: 50px;
         }
     </style>
 </head>
 
 <body>
     <!-- Comment ALT+SHIFT+A -->
+    <img src="bottom.jpeg" alt="Bottom Banner" class="bottom">
+    <img src="right.jpg" alt="Right Banner" class="right">
+    <a href="#box"><img src="th.jpeg" alt="Up Arrow" class="arrow"></a>
     <table>
         <tr>
             <td><a href="#">Home</a></td>
