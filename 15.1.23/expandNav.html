@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expand Nav</title>
+    <style>
+        nav ul li ul {
+            display: none;
+        }
+
+        nav ul li:hover ul {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <!--  nav>ul>li*5>a{heading} -->
+    <nav>
+        <ul>
+            <li><a href="#">Heading</a></li>
+            <li><a href="#">Heading</a>
+                <!-- ul>li*5>a{Sub} -->
+                <ul>
+                    <li><a href="#">Sub</a></li>
+                    <li><a href="#">Sub</a></li>
+                    <li><a href="#">Sub</a></li>
+                    <li><a href="#">Sub</a></li>
+                    <li><a href="#">Sub</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Heading</a></li>
+            <li><a href="#">Heading</a></li>
+            <li><a href="#">Heading</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>

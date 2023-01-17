@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Nav</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            width: 500px;
+            height: 34px;
+            background-color: #333;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        nav ul li a {
+            display: block;
+            width: 100px;
+            text-decoration: none;
+            color: orange;
+            padding: 5px 15px;
+            line-height: 1.5;
+            text-align: center;
+        }
+
+        nav ul li a:hover {
+            background-color: orange;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- nav>ul>li*5>a -->
+    <nav>
+        <ul>
+            <li><a href="#">Linka</a></li>
+            <li><a href="#">Linka</a></li>
+            <li><a href="#">Linka</a></li>
+            <li><a href="#">Linka</a></li>
+            <li><a href="#">Linka</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
