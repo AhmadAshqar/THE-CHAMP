@@ -6,58 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drop Nav</title>
+    <link rel="stylesheet" href="dropNav.css">
     <style>
-        * {
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-        }
 
-        nav {
-            width: 500px;
-            height: 34px;
-            background-color: #050;
-        }
-
-        nav ul {
-            list-style-type: none;
-        }
-
-        nav ul li {
-            float: left;
-        }
-
-        nav ul li ul li {
-            clear: both;
-            display: none;
-        }
-
-        nav ul li:hover ul li {
-            display: block;
-        }
-
-        nav ul li a {
-            color: #fff;
-            display: block;
-            text-decoration: none;
-            font-size: 13pt;
-            text-align: center;
-            line-height: 2;
-            padding: 5px 15px;
-            width: 100px;
-            background-color: #050;
-            border: 1px solid #fff;
-        }
-
-        nav ul li a:hover {
-            background-color: red;
-        }
     </style>
 </head>
 
 <body>
+    <!-- nav>ul>li*5>a -->
+
     <nav>
         <ul>
+            <li><a href="#">Heading</a></li>
+            <li><a href="#">Heading</a>
+                <!-- ul>li*5>a{Sub} -->
+                <ul>
+                    <li><a href="#">Sub</a></li>
+                    <li><a href="#">Sub</a></li>
+                    <li><a href="#">Sub</a></li>
+                    <li><a href="#">Sub</a></li>
+                    <li><a href="#">Sub</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Heading</a></li>
             <li><a href="#">Heading</a>
                 <ul>
                     <li><a href="#">Sub</a></li>
@@ -67,42 +38,7 @@
                     <li><a href="#">Sub</a></li>
                 </ul>
             </li>
-            <li><a href="#">Heading</a>
-                <ul>
-                    <li><a href="#">Sub</a></li>
-                    <li><a href="#">Sub</a></li>
-                    <li><a href="#">Sub</a></li>
-                    <li><a href="#">Sub</a></li>
-                    <li><a href="#">Sub</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Heading</a>
-                <ul>
-                    <li><a href="#">Sub</a></li>
-                    <li><a href="#">Sub</a></li>
-                    <li><a href="#">Sub</a></li>
-                    <li><a href="#">Sub</a></li>
-                    <li><a href="#">Sub</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Heading</a>
-                <ul>
-                    <li><a href="#">Sub</a></li>
-                    <li><a href="#">Sub</a></li>
-                    <li><a href="#">Sub</a></li>
-                    <li><a href="#">Sub</a></li>
-                    <li><a href="#">Sub</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Heading</a>
-                <ul>
-                    <li><a href="#">Sub</a></li>
-                    <li><a href="#">Sub</a></li>
-                    <li><a href="#">Sub</a></li>
-                    <li><a href="#">Sub</a></li>
-                    <li><a href="#">Sub</a></li>
-                </ul>
-            </li>
+            <li><a href="#">Heading</a></li>
         </ul>
     </nav>
 </body>

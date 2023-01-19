@@ -24,23 +24,21 @@
 
         /* Word */
         a[title~="home"] {
-            color: yellow;
+            color: #fc0;
             background-color: crimson;
         }
 
-        /* Letters */
+        /* letters */
         a[title*="ho"] {
             color: lime;
             background-color: teal;
         }
 
-        /* Starts With */
         a[href^="http"] {
             color: chocolate;
             background-color: brown;
         }
 
-        /* Ends With */
         a[href$="pdf"] {
             color: magenta;
             background-color: purple;
@@ -49,13 +47,16 @@
 </head>
 
 <body>
+    <!-- (a+br)*6 -->
     <a href="#" title="home sweet home">Home</a><br>
-    <a href="#" title="home better home">about</a><br>
+    <a href="#" title="homebitterhome">About</a><br>
     <a href="#" title="homosepian">Media</a><br>
     <a href="http://www.walla.co.il">Walla</a><br>
     <a href="http://www.mako.co.il">Mako</a><br>
     <a href="map.pdf">Download Map</a><br>
-    <a href="cssSelectors.html">Back</a><br>
+    <a href="map.pdf">Download Map</a><br>
+    <a href="map.pdf">Download Map</a><br>
+    <a href="cssSelectors.html">Back</a>
 </body>
 
 </html>

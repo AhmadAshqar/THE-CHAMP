@@ -1,6 +1,6 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -21,7 +21,7 @@ section h2 {
     font-size: 18pt;
     line-height: 2.7;
     font-family: tahoma;
-    color: #FFF;
+    color: #fff;
 }
 
 section {
@@ -65,4 +65,23 @@ section p {
     section p {
         column-count: 2;
     }
+
+}
+
+@media (min-width:250px) and (max-width:550px) {
+
+    .container,
+    header,
+    section {
+        width: 100%;
+    }
+
+    header {
+        background-color: #400;
+    }
+
+    section p {
+        column-count: 1;
+    }
+
 }
