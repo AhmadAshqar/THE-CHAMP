@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Center</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        aside {
+            width: 200px;
+            height: 200px;
+            border: 1px solid #000;
+            background-color: lightskyblue;
+            border-radius: 8px;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+            cursor: pointer;
+        }
+
+        aside:active {
+            box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+    <aside></aside>
+</body>
+
+</html>

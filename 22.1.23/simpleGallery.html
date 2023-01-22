@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Gallery</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        /*  body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        } */
+
+        img[src^='th'] {
+            width: 150px;
+            border: 1px solid #000;
+            display: block;
+            margin: 20px;
+            cursor: pointer;
+        }
+
+        img[src^='big'] {
+            width: 800px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            display: none;
+        }
+
+        img[src^='th']:hover+img[src^='big'] {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="thTree.jpeg" alt="Image">
+    <img src="bigTree.jpeg" alt="Image">
+    <img src="thCar.jpeg" alt="Image">
+    <img src="bigCar.jpeg" alt="Image">
+    <img src="theCoffe.jpeg" alt="Image">
+    <img src="bigCoffe.jpeg" alt="Image">
+
+</body>
+
+</html>
