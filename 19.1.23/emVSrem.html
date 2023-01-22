@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut-icon" href="favicon.png">
+    <title>em Vs. rem</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        section {
+            width: 500px;
+            background-color: #ccc;
+            padding: 20px;
+            font-size: 100%;
+        }
+
+        section h2 {
+            font-size: 2em;
+        }
+
+        section p {
+            text-align: justify;
+            line-height: 1.5;
+            font-family: serif;
+        }
+
+        .em {
+            font-size: 1em;
+            margin-bottom: 15px;
+        }
+
+        .rem {
+            font-size: 1rem;
+        }
+
+        @media(max-width:550px) {
+            section {
+                font-size: 110%;
+                width: 100vw;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <h2>The Section</h2>
+        <p class="em">EM Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit repellendus fugiat dolore
+            omnis consequatur
+            error vero praesentium repellat, voluptatum neque magni, minus mollitia labore non at expedita ipsam fuga
+            ratione exercitationem optio aliquid atque quibusdam? Deserunt eius consequuntur et dolore architecto!
+            Voluptatum nostrum aperiam inventore, optio ullam autem sit, cupiditate est maiores qui ipsum natus? Odit
+            numquam voluptate recusandae sapiente sequi molestias voluptatibus molestiae iure iusto dicta ab minima
+            consectetur libero accusamus aperiam possimus esse neque omnis similique repellendus, tempora, in delectus.
+            Debitis ducimus accusantium ea provident? Laudantium sapiente officia esse est sit, voluptate
+            exercitationem. Voluptas eius quae temporibus libero!</p>
+        <p class="rem">REM Cumque quod, quibusdam placeat eligendi soluta accusantium minima voluptatem molestias! Rem
+            laborum quis
+            blanditiis consequatur. Repellat velit quis hic iusto id, nam ullam dolores tempora. Consectetur nisi
+            doloremque repellat architecto minus cupiditate illo numquam voluptatem pariatur, nemo quam tenetur porro
+            provident quaerat obcaecati soluta repellendus impedit earum maxime, harum temporibus! Aspernatur soluta
+            voluptatibus labore nihil delectus, quo, tempore velit non harum necessitatibus omnis itaque! Recusandae
+            veniam error earum minus natus! Eum cum modi harum earum. Sed dicta qui dolorum quo cumque, distinctio
+            magnam architecto doloremque cum optio. Voluptatem optio, veritatis quis distinctio nesciunt debitis
+            accusantium odit mollitia iusto provident? Laborum!</p>
+    </section>
+</body>
+
+</html>

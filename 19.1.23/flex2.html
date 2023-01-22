@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valik</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 80vw;
+            margin: 0 auto;
+            height: 30vh;
+            display: flex;
+        }
+
+        section {
+            background-color: hotpink;
+            height: 30vh;
+            flex-basis: 20vw;
+            flex-grow: 1;
+        }
+
+        aside {
+            width: 250px;
+            height: 30vh;
+            background-color: #ccc;
+            text-align: center;
+        }
+
+        a {
+            margin-right: 15px;
+        }
+
+        @media (max-width:550px) {
+            .container {
+                flex-direction: column;
+                height: 100vh;
+            }
+
+            .container,
+            section,
+            aside {
+                width: 100vw;
+            }
+
+            section {
+                height: 70vh;
+                order: 2;
+            }
+
+            aside {
+                height: 10vh;
+                order: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- .container>section+aside>a*4{linka} -->
+    <div class="container">
+        <section></section>
+        <aside>
+            <a href="#">linka</a>
+            <a href="#">linka</a>
+            <a href="#">linka</a>
+            <a href="#">linka</a>
+        </aside>
+    </div>
+</body>
+
+</html>
