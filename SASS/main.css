@@ -67,4 +67,44 @@ button:hover, .cta:hover {
 
 .box1, .box2 {
   margin-bottom: 10px;
+}
+
+.boxm1 {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  background-color: silver;
+  border: 1px solid #000;
+}
+
+.boxm2 {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  background-color: silver;
+  border: 1px solid #000;
+}
+
+.boxm3 {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  background-color: silver;
+  border: 1px solid #000;
+}
+
+.boxm4 {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  background-color: silver;
+  border: 1px solid #000;
+}
+
+.boxm5 {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  background-color: silver;
+  border: 1px solid #000;
 }/*# sourceMappingURL=main.css.map */
