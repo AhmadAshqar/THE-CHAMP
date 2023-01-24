@@ -1,19 +1,19 @@
 .boxm1 {
-    @include boxm
+    @include boxm(100px, 300px)
 }
 
 .boxm2 {
-    @include boxm
+    @include boxm(50px, 100px)
 }
 
 .boxm3 {
-    @include boxm
+    @include boxm(90px, 80px, pink)
 }
 
 .boxm4 {
-    @include boxm
+    @include boxm(300px, 40px, orange)
 }
 
 .boxm5 {
-    @include boxm
+    @include boxm(100px, 100px, blue)
 }

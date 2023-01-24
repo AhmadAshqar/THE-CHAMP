@@ -70,41 +70,41 @@ button:hover, .cta:hover {
 }
 
 .boxm1 {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 300px;
   margin: 20px;
-  background-color: silver;
+  background-color: #000;
   border: 1px solid #000;
 }
 
 .boxm2 {
-  width: 200px;
-  height: 200px;
+  width: 50px;
+  height: 100px;
   margin: 20px;
-  background-color: silver;
+  background-color: #000;
   border: 1px solid #000;
 }
 
 .boxm3 {
-  width: 200px;
-  height: 200px;
+  width: 90px;
+  height: 80px;
   margin: 20px;
-  background-color: silver;
+  background-color: pink;
   border: 1px solid #000;
 }
 
 .boxm4 {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 40px;
   margin: 20px;
-  background-color: silver;
+  background-color: orange;
   border: 1px solid #000;
 }
 
 .boxm5 {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   margin: 20px;
-  background-color: silver;
+  background-color: blue;
   border: 1px solid #000;
 }/*# sourceMappingURL=main.css.map */

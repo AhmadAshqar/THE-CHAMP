@@ -15,10 +15,10 @@ $baseWidth: 80vw;
     border: 1px solid #000;
 }
 
-@mixin boxm {
-    width: 200px;
-    height: 200px;
+@mixin boxm($width, $height, $bgc2: #000) {
+    width: $width;
+    height: $height;
     margin: 20px;
-    background-color: silver;
+    background-color: $bgc2;
     border: 1px solid #000;
 }
