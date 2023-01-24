@@ -1,7 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box5, .box4, .box3, .box1, .box2 {
+  width: 100px;
+  height: 100px;
+  background-color: hotpink;
+  border: 1px solid #000;
+}
+
 section {
   background-color: #005;
+  width: 80vw;
+  padding: 20px;
+  margin: 0 auto;
 }
 
 section p {
   color: aqua;
+}
+
+nav {
+  width: 80vw;
+  height: 40px;
+  background-color: #005;
+  margin: 0 auto;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav ul a {
+  display: block;
+  text-decoration: none;
+  width: 100px;
+  text-align: center;
+  background-color: lightskyblue;
+}
+nav ul a:hover {
+  background-color: orange;
+}
+
+button, .cta {
+  padding: 15px;
+  font-size: 2rem;
+  background-color: crimson;
+  color: #fff;
+  margin-bottom: 15px;
+}
+button:hover, .cta:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.cta {
+  width: 400px;
+  text-align: center;
+}
+.cta:hover {
+  background-color: crimson;
+  cursor: auto;
+}
+
+.box1, .box2 {
+  margin-bottom: 10px;
 }/*# sourceMappingURL=main.css.map */
