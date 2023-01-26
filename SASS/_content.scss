@@ -3,8 +3,14 @@ section {
     width: $baseWidth;
     padding: 20px;
     margin: 0 auto;
-}
 
-section p {
-    color: $textColor;
+
+    @include mobile {
+        width: 100vw;
+        background-color: #ccc;
+    }
+
+    section p {
+        color: $textColor;
+    }
 }

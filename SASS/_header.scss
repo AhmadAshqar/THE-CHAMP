@@ -7,10 +7,9 @@ header {
         background-color: red;
     }
 
-    @include talet {
+    @include tablet {
         background-color: green;
     }
-
 
     @include mobile {
         background-color: blue;
