@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* % placeholder - holds a list of settings */
+.box5, .box4, .box3, .box1, .box2 {
+  width: 100px;
+  height: 100px;
+  background-color: hotpink;
+  border: 1px solid #000;
+}
+
+section {
+  background-color: #005;
+  width: 80vw;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+section p {
+  color: aqua;
+}
+
+nav {
+  width: 80vw;
+  height: 40px;
+  background-color: #005;
+  margin: 0 auto;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav ul a {
+  display: block;
+  text-decoration: none;
+  width: 100px;
+  text-align: center;
+  background-color: lightskyblue;
+}
+nav ul a:hover {
+  background-color: orange;
+}
+
+button, .cta {
+  padding: 15px;
+  font-size: 2rem;
+  background-color: crimson;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.cta {
+  width: 400px;
+  text-align: center;
+}
+
+.box1, .box2 {
+  margin-bottom: 10px;
+}
+
+.boxm1 {
+  width: 100px;
+  height: 300px;
+  margin: 20px;
+  background-color: #000;
+  border: 1px solid #000;
+}
+
+.boxm2 {
+  width: 50px;
+  height: 100px;
+  margin: 20px;
+  background-color: #000;
+  border: 1px solid #000;
+}
+
+.boxm3 {
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+  background-color: pink;
+  border: 1px solid #000;
+}
+
+.boxm4 {
+  width: 300px;
+  height: 40px;
+  margin: 20px;
+  background-color: blue;
+  border: 1px solid #000;
+}
+
+.boxm5 {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  background-color: magenta;
+  border: 1px solid #000;
+}/*# sourceMappingURL=main.css.map */

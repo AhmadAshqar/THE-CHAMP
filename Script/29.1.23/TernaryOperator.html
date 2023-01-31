@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Price</title>
+</head>
+
+<body>
+    <!-- form>label+input+br+input:button -->
+    <form name="forme">
+        <label for="">Enter Your Age</label>
+        <input type="text" name="userAge"><br>
+        <input type="button" value="Click To Get The Price" onclick="check()">
+    </form>
+    <script>
+        /* 
+                אם גיל המשתמש קטן או שווה 12 מחיר הכרטיס 75 ₪
+        אם גיל המשתמש גדול מ -12 מחיר הכרטיס 150 ₪ 
+                
+         */
+        function check() {
+            var user = document.forme.userAge.value;
+            user <= 12 ? alert("The Price is 75nis") : alert("The Price is 150nis");
+        }
+    </script>
+</body>
+
+</html>

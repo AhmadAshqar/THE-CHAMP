@@ -1,0 +1,36 @@
+button {
+    padding: 15px;
+    font-size: 2rem;
+    background-color: crimson;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.cta {
+    @extend button;
+    width: 400px;
+    text-align: center;
+}
+
+.box1 {
+    @extend %box;
+    margin-bottom: 10px;
+}
+
+.box2 {
+    @extend .box1;
+
+}
+
+.box3 {
+    @extend %box;
+
+}
+
+.box4 {
+    @extend %box;
+}
+
+.box5 {
+    @extend %box;
+}

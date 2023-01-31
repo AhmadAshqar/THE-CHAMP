@@ -4,13 +4,12 @@ section {
     padding: 20px;
     margin: 0 auto;
 
-
     @include mobile {
         width: 100vw;
         background-color: #ccc;
     }
+}
 
-    section p {
-        color: $textColor;
-    }
+section p {
+    color: $textColor;
 }

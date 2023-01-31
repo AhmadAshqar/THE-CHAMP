@@ -1,0 +1,25 @@
+$textColor: aqua;
+$bgc: #005;
+$baseWidth: 80vw;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* % placeholder - holds a list of settings */
+%box {
+    width: 100px;
+    height: 100px;
+    background-color: hotpink;
+    border: 1px solid #000;
+}
+
+@mixin boxm($valik, $height, $bgc2: #000) {
+    width: $valik;
+    height: $height;
+    margin: 20px;
+    background-color: $bgc2;
+    border: 1px solid #000;
+}

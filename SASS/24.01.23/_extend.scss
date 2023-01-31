@@ -4,22 +4,12 @@ button {
     background-color: crimson;
     color: #fff;
     margin-bottom: 15px;
-
-    &:hover {
-        background-color: red;
-        cursor: pointer;
-    }
 }
 
 .cta {
     @extend button;
     width: 400px;
     text-align: center;
-
-    &:hover {
-        background-color: crimson;
-        cursor: auto;
-    }
 }
 
 .box1 {
@@ -29,10 +19,12 @@ button {
 
 .box2 {
     @extend .box1;
+
 }
 
 .box3 {
     @extend %box;
+
 }
 
 .box4 {

@@ -9,23 +9,24 @@ $baseWidth: 80vw;
 }
 
 @mixin desktop {
-    @media (max-width: 992px) {
+    @media (max-width:992px) {
         @content;
     }
 }
 
 @mixin tablet {
-    @media (max-width: 768px) {
+    @media (max-width:768px) {
         @content;
     }
 }
 
 @mixin mobile {
-    @media (max-width: 576px) {
+    @media (max-width:576px) {
         @content;
     }
 }
 
+/* % placeholder - holds a list of settings */
 %box {
     width: 100px;
     height: 100px;
@@ -33,8 +34,8 @@ $baseWidth: 80vw;
     border: 1px solid #000;
 }
 
-@mixin boxm($width, $height, $bgc2: #000) {
-    width: $width;
+@mixin boxm($valik, $height, $bgc2: #000) {
+    width: $valik;
     height: $height;
     margin: 20px;
     background-color: $bgc2;

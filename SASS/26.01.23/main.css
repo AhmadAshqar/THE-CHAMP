@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/* % placeholder - holds a list of settings */
 .box5, .box4, .box3, .box1, .box2 {
   width: 100px;
   height: 100px;
@@ -23,7 +24,8 @@ section {
     background-color: #ccc;
   }
 }
-section section p {
+
+section p {
   color: aqua;
 }
 
@@ -56,18 +58,10 @@ button, .cta {
   color: #fff;
   margin-bottom: 15px;
 }
-button:hover, .cta:hover {
-  background-color: red;
-  cursor: pointer;
-}
 
 .cta {
   width: 400px;
   text-align: center;
-}
-.cta:hover {
-  background-color: crimson;
-  cursor: auto;
 }
 
 .box1, .box2 {
@@ -91,7 +85,7 @@ button:hover, .cta:hover {
 }
 
 .boxm3 {
-  width: 90px;
+  width: 80px;
   height: 80px;
   margin: 20px;
   background-color: pink;
@@ -102,7 +96,7 @@ button:hover, .cta:hover {
   width: 300px;
   height: 40px;
   margin: 20px;
-  background-color: orange;
+  background-color: blue;
   border: 1px solid #000;
 }
 
@@ -110,7 +104,7 @@ button:hover, .cta:hover {
   width: 100px;
   height: 100px;
   margin: 20px;
-  background-color: blue;
+  background-color: magenta;
   border: 1px solid #000;
 }
 
