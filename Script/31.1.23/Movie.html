@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+
+    <title>Movie</title>
+    <style>
+        label {
+            font-size: 1.5rem;
+            color: red;
+            font-family: Lobster;
+        }
+
+        #age {
+            width: 50px;
+        }
+
+        .parents {
+            color: magenta;
+        }
+
+        #BUTTOON {
+            font-family: Lobster;
+            width: 100px;
+            height: 50px;
+            background-color: blue;
+            color: magenta;
+            font-size: 2rem;
+        }
+
+        #BUTTOON:active {
+            font-family: Lobster;
+            width: 100px;
+            height: 50px;
+            background-color: magenta;
+            color: blue;
+            font-size: 2rem;
+        }
+
+        #BUTTOON:hover {
+            font-family: Lobster;
+            width: 100px;
+            height: 50px;
+            background-color: magenta;
+            color: blue;
+            font-size: 2rem;
+            box-shadow: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <form name="forme">
+        <label for="">Age:</label>
+        <input type="number" id="age">
+        <br>
+        <label for="">Parent:</label>
+        <input type="radio" name="parent" id="yes">
+        <label class="parents">Yes</label>
+        <input type="radio" name="parent" id="no">
+        <label class="parents">No</label><br>
+        <input type="button" id="BUTTOON" value="Check" onclick="check()">
+    </form>
+
+    <script>
+        function check() {
+            let age = document.getElementById("age");
+            let parent = document.getElementById("yes");
+            if (age.value >= 16 || parent.checked) {
+                alert("Allowed")
+            } else {
+                alert("Not Allowed")
+            }
+
+        }
+    </script>
+</body>
+
+</html>
