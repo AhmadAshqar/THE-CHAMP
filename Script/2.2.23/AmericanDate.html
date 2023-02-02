@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>American Date</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <style>
+        #theDay {
+            font-size: 3rem;
+            font-family: orbitron;
+            color: magenta;
+            text-align: center;
+            margin-top: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="theDay"></div>
+    <script>
+        let theDay = document.getElementById("theDay");
+        let today = new Date();
+        let day, month, year;
+        day = today.getDate()
+        month = today.getMonth() + 1
+        year = today.getFullYear()
+        /*         theDay.innerHTML = month + "/" + day + "/" + year  */
+        theDay.innerHTML = `The Date In American Format: ${month} / ${day} / ${year}`; 
+    </script>
+</body>
+
+</html>
