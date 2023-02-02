@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent</title>
+</head>
+
+<body>
+    <form>
+        <label for="">age :</label>
+        <input type="text" id="age"><br>
+        <label for="">parent :</label>
+        <input type="checkbox" id="parent"><br>
+        <input type="button" value="click" onclick="check()">
+    </form>
+    <script>
+        function check() {
+            let age = document.getElementById('age');
+            let parent = document.getElementById('parent');
+            if (age.value >= 16 || parent.checked == true) {
+                alert('You Can Enter!');
+            } else {
+                alert('Go Home!');
+                age.style.borderColor = "red";
+            }
+        }
+    </script>
+</body>
+
+</html>

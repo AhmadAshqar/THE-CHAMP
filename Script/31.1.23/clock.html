@@ -31,9 +31,7 @@
             let hr = theTime.getHours();
             let mn = theTime.getMinutes();
             let sc = theTime.getSeconds();
-            if (sc < 10) {
-                sc = "0" + sc;
-            }
+            sc < 10 ? sc = "0" + sc : sc;
             if (mn < 10) {
                 mn = "0" + mn;
             }
