@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Loop</title>
+</head>
+
+<body>
+    <script>
+        let z = 1;
+        document.write('<table border="3">');
+        for (let x = 0; x < 10; x++) {
+            document.write('<tr>');
+            for (let y = 1; y <= 10; y++) {
+                if (z % 2 == 0) {
+                    document.write('<td style="background-color:red">' + z + ' </td>');
+                } else {
+                    document.write('<td>' + z + ' </td>');
+                }
+                z++;
+            }
+            document.write('</tr>');
+        }
+        document.write('</table>');
+    </script>
+</body>
+
+</html>

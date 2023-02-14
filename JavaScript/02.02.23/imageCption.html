@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Caption</title>
+    <style>
+        figure {
+            width: 800px;
+            height: 600px;
+            overflow: hidden;
+        }
+
+        figcaption {
+            width: 800px;
+            height: 50px;
+            background-color: rgba(0, 150, 0, 0.7);
+            text-align: center;
+            line-height: 2;
+            font-size: 1.7rem;
+            font-family: arial;
+            opacity: 0;
+            transition: all 0.8s ease-in-out;
+
+        }
+
+        figure:hover figcaption {
+            transform: translateY(-54px);
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <figure>
+        <img src="spring.jpg" alt="Spring Flowers">
+        <figcaption>Some Spring Flowers, On a Bright Day.</figcaption>
+    </figure>
+
+</body>
+
+</html>

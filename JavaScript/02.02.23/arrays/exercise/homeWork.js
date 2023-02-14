@@ -1,0 +1,2 @@
+// 1) Write a function that takes an array of numbers as input and returns the sum of all the even numbers using a for loop.
+// 2) Write a function that takes an array of strings as input and returns the longest string using a for loop.

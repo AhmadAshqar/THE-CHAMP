@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getElementById</title>
+</head>
+
+<body>
+    <img src="bob.jpg" alt="bob" id="bob" onclick="setTimeout(go2,2000)">
+
+    <script>
+        function go2() {
+            let bobLet = document.getElementById('bob');
+            bobLet.style.border = "3px double #639";
+            document.body.style.backgroundColor = "hotpink";
+        }
+    </script>
+</body>
+
+</html>

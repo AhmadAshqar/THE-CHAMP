@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <style>
+        input {
+            font-family: orbitron;
+            font-size: 4rem;
+            color: #639;
+            display: block;
+            width: 400px;
+            margin: 0 auto;
+            border: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <form name="forme">
+        <input type="text" name="clock">
+    </form>
+    <script>
+        function runTime() {
+            let watch = document.forme.clock;
+            let theTime = new Date();
+            let hr = theTime.getHours();
+            let mn = theTime.getMinutes();
+            let sc = theTime.getSeconds();
+            sc < 10 ? sc = "0" + sc : sc;
+            if (mn < 10) {
+                mn = "0" + mn;
+            }
+            if (hr > 12) {
+                hr = hr - 12;
+                watch.value = hr + ":" + mn + ":" + sc + " PM";
+            } else {
+                watch.value = hr + ":" + mn + ":" + sc + " AM";
+            }
+            setTimeout(runTime, 1000);
+        }
+        runTime();
+    </script>
+</body>
+
+</html>
